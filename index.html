@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <script src="https://kit.fontawesome.com/306ddc5655.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark myNavbar">
+        <a class="navbar-brand" href="#">Phoenix</a>
+        <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#banner" >Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#team">Team</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#contactUs">Contact Us</a>
+                 </li>
+              </ul>
+    </nav>
+
+    <!-- Banner -->
+<div class="container-fluid banner" id="banner">
+    <div class="row animated jackInTheBox">
+        <div class="col-8 text-center">
+            <h1 class="display-1">Phoenix</h1>
+            <p class="display-4">Rises from Ashes</p>
+            <button type="button" class="btn btn-secondary">Rise</button>
+        </div>
+        <div class="col-4 banner align-self-end">
+            <img src="./images/office.jpg" height="290px" width="290px">
+        </div>
+    </div>
+</div>
+
+<!-- Tech Stack -->
+<div class = "tech p-5">
+<div class="container-fluid">
+    <div class="row text-center">
+        <div class="col-sm-3">
+                <i class="fab fa-html5" style="font-size:100px;"></i>
+        </div>
+        <div class="col-sm-3">
+                <i class="fab fa-node" style="font-size:100px;"></i>
+        </div>
+        <div class="col-sm-3">
+                <i class="fab fa-angular"style="font-size:100px;"></i>
+        </div>
+        <div class="col-sm-3">
+                <i class="fab fa-java" style="font-size:100px;"></i>
+        </div>
+        <div class="col-sm-3">
+                <i class="fab fa-android" style="font-size:100px"></i>
+        </div>
+        <div class="col-sm-3">
+                <i class="fab fa-apple" style="font-size:100px;"></i>
+        </div>
+        <div class="col-sm-3">
+                <i class="fab fa-aws" style="font-size:100px;"></i>
+        </div>
+        <div class="col-sm-3">
+                <i class="fab fa-python" style="font-size:100px;"></i>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- TEAM -->
+<div class="container-fluid team p-3" id="team">
+    <div class="row">
+       <div class=col-sm-3>
+           <img src="images/dhoni.jpg" class=" rounded-circle" width="300px" height="300px">
+           <p class="display-4 text-center">Mahi</p>
+           <p class="display-5 text-center">The Captain</p>
+       </div>
+       <div class=col-sm-3>
+            <img src="images/fedra.jpg"  class="rounded-circle" width="300px" height="300px">
+            <p class="display-4 text-center">Fedra</p>
+            <p class="display-5 text-center">The Master of Backend</p>
+        </div>
+        <div class=col-sm-3>
+                <img src="images/kohli.jpg" class="rounded-circle" width="300px" height="300px">
+                <p class="display-4 text-center">Kohli</p>
+                <p class="display-5 text-center">The Run Machine and Chase Master</p>
+        </div>
+        <div class=col-sm-3>
+                <img src="images/ronaldo.jpg" class="rounded-circle" width="300px" height="300px">
+                <p class="display-4 text-center">Ronaldo</p>
+                <p class="display-5 text-center">The Striker</p>
+        </div>
+    </div>
+</div>
+
+<!-- IMAGE CAROUSEL -->
+<div class="carousel slide p-3 portfolio" data-ride="carousel" id="carouselExample">
+    <div class="carousel-inner">
+        <div class="row text-center">
+            <div class="col-sm-12">
+                <div class="carousel-item active" style="background-color: white;">
+                     <img src="https://picsum.photos/id/1025/1000/500" alt="First Slide" class="img-fluid">
+                </div>
+                <div class="carousel-item" style="background-color: white;">
+                        <img src="https://picsum.photos/id/1012/1000/500" alt="Second Slide" class="img-fluid">
+                </div>
+                <div class="carousel-item" style="background-color: white;">
+                        <img src="https://picsum.photos/id/1023/1000/500" alt="Second Slide" class="img-fluid">
+                </div>
+                <div class="carousel-item" style="background-color: white;">
+                        <img src="https://picsum.photos/id/1006/1000/500" alt="Second Slide" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- CONTACT US -->
+<div class="container-fluid p-3 contact" id="contactUs">
+    <form>
+        <div class="row">
+            <div class="col-sm-12"><p class="h1 text-center">Contact Us</p></div>
+            <div class="col-sm-8 mx-auto my-2">
+                <input type="text" class="form-control" placeholder="Please Enter Your Name">
+            </div>
+            <div class="col-sm-8 mx-auto my-2">
+                <input type="email" class="form-control" placeholder="Please Enter Your Email">
+            </div>
+            <div class="col-sm-8 mx-auto my-2">
+                    <textarea class="form-control z-depth-1" id="exampleFormControlTextarea6"  placeholder="Write something here..."></textarea>
+            </div>
+            <div class="col-sm-8 mx-auto my-2">
+                    <input type="submit" class="form-control btn btn-primary" value="Connect with Us">
+            </div>
+        </div>
+    </form>
+</div>
+
+<!-- FOOTER -->
+<nav class="navbar sticky-bottom navbar-expand-lg navbar-dark bg-dark myNavbar">
+        <a class="navbar-brand" href="#">Phoenix</a>
+        <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#banner" >Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#team">Team</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#contactUs">Contact Us</a>
+                 </li>
+              </ul>
+    </nav>
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+.myNavbar{
+    height: 75px;
+}
+
+.banner{
+    background-color:#defffb;
+    height: 290px;
+}
+
+
+
+.tech{
+    background-color: #e2fcd3;
+}
+
+.team{
+    background-color:#defffb;
+}
+
+.portfolio{
+    /* background-color: #e2fcd3; */
+}
+
+.contact{
+    background-color: #e2fcd3;
+}
